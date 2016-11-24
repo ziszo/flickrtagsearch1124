@@ -3,6 +3,7 @@
 	app.controller('PageController', function($http, $location, $routeParams, $scope){
 		main = this;
 		console.log('PageController running...');
+		this.results = [];
 		this.error = false;
 		this.tag = "";
 		this.tempTag = "";
