@@ -108,6 +108,9 @@
 				font-weight: bold;
 				text-decoration: none;
 			}
+			.inspection a:hover {
+				text-decoration: underline;
+			}
 
 			.toast-message {
 				width: 300px;
