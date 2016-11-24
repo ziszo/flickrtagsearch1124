@@ -97,6 +97,7 @@
 				color: white;
 				font-size: 18px;
 				overflow: hidden;
+				text-align: center;
 			}
 			.inspection.ng-hide {
 				opacity: 0;
