@@ -2,7 +2,7 @@
 
 			app.config(function($locationProvider, $routeProvider){
 				$routeProvider
-				.when('flickrtagsearch1124/#/:tag', {
+				.when('/flickrtagsearch1124/#/:tag', {
 					templateUrl: 'templates/tag-getter.html',
 					controller: 'TagController',
 					controllerAs: 'tagCtrl'
