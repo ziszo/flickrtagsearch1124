@@ -28,7 +28,7 @@
 		this.initilize_request = function() {
 			if (this.tempTag) {
 				this.tag = this.tempTag;
-				$location.path(this.tag);
+				$location.path('/flickrtagsearch1124' + this.tag);
 				this.flickr(this.tag);
 			}
 			/*else {	//if no tag entered
