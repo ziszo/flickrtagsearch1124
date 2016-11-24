@@ -15,7 +15,7 @@
 				this.tempTag = "";
 				this.tag = "";
 				// window.history.pushState({"html":'index.html'},"Flickr | Search by Tag", '#');
-				$location.path('/');
+				$location.path('');
 			}
 		};
 		this.enter_tag = function(e) {
