@@ -3,12 +3,12 @@
 			app.config(function($locationProvider, $routeProvider){
 				$routeProvider
 				.when('/:tag', {
-					templateUrl: '/templates/tag-getter.html',
+					templateUrl: 'templates/tag-getter.html',
 					controller: 'TagController',
 					controllerAs: 'tagCtrl'
 				})
 				.otherwise({
-					templateUrl: '/templates/tag-getter.html',
+					templateUrl: 'templates/tag-getter.html',
 					controller: 'TagController',
 					controllerAs: 'tagCtrl'
 				})
