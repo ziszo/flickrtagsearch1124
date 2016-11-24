@@ -2,7 +2,7 @@
 
 			app.config(function($locationProvider, $routeProvider){
 				$routeProvider
-				.when(':tag', {
+				.when('#/:tag', {
 					templateUrl: 'templates/tag-getter.html',
 					controller: 'TagController',
 					controllerAs: 'tagCtrl'
