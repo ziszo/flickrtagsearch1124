@@ -1,0 +1,11 @@
+			<div class="main-container">
+				<div ng-if="pageCtrl.results.length > 0" class="search-results-container">
+					<div ng-repeat="result in pageCtrl.results" class="results-repeater">
+						<result-item></result-item>
+					</div>
+				</div>
+				<div ng-if="pageCtrl.results.length == 0" class="no-result column-center-center">
+					<i class="material-icons md-100">sentiment_very_dissatisfied</i>
+					<div class="nothing">No result.</div>
+				</div>
+			</div>

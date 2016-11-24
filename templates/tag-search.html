@@ -1,0 +1,32 @@
+			<div ng-class="{home: pageCtrl.noTag}" class="tag-search-container transition">
+				<div class="search-container column-center-center transition">
+					<img ng-hide="!pageCtrl.noTag" class="logo-large transition" src="images/flickr-logo.jpeg" height="50px" alt="Flickr" ng-click="pageCtrl.toggle_noTag()">
+					<div class="search-form row-center-center transition">
+						<img ng-hide="pageCtrl.noTag" class="logo-small transition" src="images/flickr-logo.jpeg" height="25px" alt="Flickr" ng-click="pageCtrl.toggle_noTag()">
+						<div class="search-form-right flex transition">
+							<input type="text" ng-keypress="pageCtrl.enter_tag($event)" ng-model="pageCtrl.tempTag" placeholder="Search photos by tag" />
+							<div ng-if="!pageCtrl.requesting" class="button column-center-center" ng-click="pageCtrl.search_tag()">
+								<i class="material-icons md-24">search</i>
+							</div>
+							<div ng-if="pageCtrl.requesting" class="loading column-center-center">
+								<i class="material-icons">autorenew</i>
+							</div>
+						</div>
+					</div>
+					<div ng-hide="!pageCtrl.noTag" class="inspection transition">
+						Try to see photos with <a href="/#/inspection">inspection</a> tag.
+					</div>
+				</div>
+				<div ng-hide="!pageCtrl.error" class="toast-message transition-04">
+					<div class="toast-left row-center-center">
+						<i class="material-icons md-36">sentiment_very_dissatisfied</i>
+					</div>
+					<div class="toast-right">
+						<div class="toast-title">{{pageCtrl.errorTitle}}</div>
+						<div class="toast-info">{{pageCtrl.errorMessage}}</div>
+						<div class="close-toast" ng-click="pageCtrl.error = !pageCtrl.error">
+							<i class="material-icons">close</i>
+						</div>
+					</div>
+				</div>
+			</div>

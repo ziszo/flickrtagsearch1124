@@ -1,0 +1,40 @@
+			.main-container {
+				display: block;
+				height: 100vh;
+				position: relative;
+				padding-bottom: 15px;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				overflow: auto;
+			}
+			.search-results-container {
+				position: relative;
+				min-height: 100%;
+				margin: 0 auto;
+				padding: 70px 5px 0;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			.no-result {
+				width: 100%;
+				height: 100%;
+				color: darkgrey;
+			}
+			.nothing {
+				font-size: 18px;
+			}
+
+			@media all and (min-width: 768px) {
+				.search-results-container {
+					width: 700px;
+					padding: 75px 0 0;
+				}
+			}
+
+			@media all and (max-width: 767.99px) {
+				.main-container {
+					width: 100%;
+				}
+			}

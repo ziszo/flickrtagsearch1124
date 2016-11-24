@@ -1,0 +1,141 @@
+
+			/*@media (min-width: 768px) {*/
+	            /* Scrollbar Styles */
+	            ::-webkit-scrollbar {
+	                width:  7px;
+	                height:  7px;
+	            }
+	            ::-webkit-scrollbar-thumb {
+	                background: grey;
+	            }
+	            ::-webkit-scrollbar-track {
+	                background: white;
+	            }
+	            body {
+	                scrollbar-face-color: grey;
+	                scrollbar-track-color: white;
+	            }
+	        /*}*/
+
+	        .ng-cloak {
+	        	display: none;
+	        }
+
+            .transition {
+            	-webkit-transition: 0.7s;
+            	-o-transition: 0.7s;
+            	transition: 0.7s;
+			}
+            .transition-04 {
+            	-webkit-transition: 0.4s;
+            	-o-transition: 0.4s;
+            	transition: 0.4s;
+			}
+            .transition-1s {
+            	-webkit-transition: 1s;
+            	-o-transition: 1s;
+            	transition: 1s;
+			}
+
+			.flex {
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+
+				-webkit-flex: 1 1 auto;
+				-moz-flex: 1 1 auto;
+				-ms-flex: 1 1 auto;
+				-o-flex: 1 1 auto;
+				flex: 1 1 auto;
+			}
+			.row {
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+
+				-webkit-flex-direction: row;
+				-moz-flex-direction: row;
+				-ms-flex-direction: row;
+				-o-flex-direction: row;
+				flex-direction: row;
+			}
+			.row-center-center	{
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				display: flex;
+
+				-webkit-flex-direction: row;
+				-moz-flex-direction: row;
+				-ms-flex-direction: row;
+				-o-flex-direction: row;
+				flex-direction: row;
+
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+				
+				-ms-flex-pack: center;
+				-webkit-justify-content: center;
+				justify-content: center;
+			}
+			.column	{
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+
+				-webkit-flex-direction: column;
+				-moz-flex-direction: column;
+				-ms-flex-direction: column;
+				-o-flex-direction: column;
+				flex-direction: column;
+			}
+			.column-center-center	{
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+
+				-webkit-flex-direction: column;
+				-moz-flex-direction: column;
+				-ms-flex-direction: column;
+				-o-flex-direction: column;
+				flex-direction: column;
+
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+
+				-ms-flex-pack: center;
+				-webkit-justify-content: center;
+				justify-content: center;
+			}
+			.center-y {
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+			}
+			.center-x {
+				-ms-flex-pack: center;
+				-webkit-justify-content: center;
+				justify-content: center;
+			}
+
+			.four-columns {
+				float: left;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			.six-columns {
+				float: left;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+
+			/* Rules for sizing the icon. */
+			.material-icons.md-18 { font-size: 18px; }
+			.material-icons.md-24 { font-size: 24px; }
+			.material-icons.md-36 { font-size: 36px; }
+			.material-icons.md-48 { font-size: 48px; }
+			.material-icons.md-100 { font-size: 100px; }
