@@ -36,7 +36,7 @@
 				background: black;
 				width: 100%;
 				border-radius: 3px;
-				padding: 0;
+				padding: 0 5px 0 0;
 				-webkit-box-sizing: border-box;
 				-moz-box-sizing: border-box;
 				box-sizing: border-box;

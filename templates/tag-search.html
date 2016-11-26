@@ -1,8 +1,8 @@
 			<div ng-class="{home: pageCtrl.noTag}" class="tag-search-container">
 				<div class="search-container column-center-center transition">
-					<img ng-hide="!pageCtrl.noTag" class="logo-large transition" src="images/flickr-logo.jpeg" height="50px" alt="Flickr" ng-click="pageCtrl.toggle_noTag()">
-					<div class="search-form row-center-center transition">
-						<img ng-hide="pageCtrl.noTag" class="logo-small transition" src="images/flickr-logo.jpeg" height="25px" alt="Flickr" ng-click="pageCtrl.toggle_noTag()">
+					<img ng-hide="!pageCtrl.noTag" class="logo-large" src="images/flickr-logo.jpeg" height="50px" alt="Flickr" ng-click="pageCtrl.toggle_noTag()">
+					<div class="search-form row-center-center">
+						<img ng-hide="pageCtrl.noTag" class="logo-small" src="images/flickr-logo.jpeg" height="25px" alt="Flickr" ng-click="pageCtrl.toggle_noTag()">
 						<div class="search-form-right flex transition">
 							<input type="text" ng-keypress="pageCtrl.enter_tag($event)" ng-model="pageCtrl.tempTag" placeholder="Search photos by tag" />
 							<div ng-if="!pageCtrl.requesting" class="button column-center-center" ng-click="pageCtrl.search_tag()">
