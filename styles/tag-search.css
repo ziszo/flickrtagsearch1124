@@ -5,9 +5,15 @@
 				position: fixed;
 				top: 0;
 				z-index: 10;
+				-webkit-transition: 0.5s;
+				-o-transition: 0.5s;
+				transition: 0.5s;
 			}
 			.tag-search-container.home {
 				height: 100vh;
+				-webkit-transition: none;
+				-o-transition: none;
+				transition: none;
 			}
 			.search-container {
 				width: 100%;
@@ -97,6 +103,7 @@
 				color: white;
 				font-size: 18px;
 				overflow: hidden;
+				text-align: center;
 			}
 			.inspection.ng-hide {
 				opacity: 0;
@@ -123,10 +130,16 @@
 				-webkit-box-shadow: 0 2px 15px rgba(0,0,0,0.8);
 				box-shadow: 0 2px 15px rgba(0,0,0,0.8);
 				z-index: 20;
+				-webkit-transition: 0.5s;
+				-o-transition: 0.5s;
+				transition: 0.5s;
 			}
 			.toast-message.ng-hide {
 				opacity: 0;
 				top: 50px;
+				-webkit-transition: none;
+				-o-transition: none;
+				transition: none;
 			}
 			.toast-left {
 				position: relative;
