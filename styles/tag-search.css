@@ -36,11 +36,14 @@
 				background: black;
 				width: 100%;
 				border-radius: 3px;
-				padding: 0;
+				padding: 0 5px 0 0;
 				-webkit-box-sizing: border-box;
 				-moz-box-sizing: border-box;
 				box-sizing: border-box;
 				overflow: hidden;
+				-webkit-transition: 0.4s;
+				-o-transition: 0.4s;
+				transition: 0.4s;
 			}
 			.search-form input {
 				height: 30px;
@@ -59,10 +62,16 @@
 			}
 			.logo-small {
 				cursor: pointer;
+				-webkit-transition: 0.5s;
+				-o-transition: 0.5s;
+				transition: 0.5s;
 			}
 			.logo-small.ng-hide {
 				margin-left: -67px;
 				opacity: 0;
+				-webkit-transition: none;
+				-o-transition: none;
+				transition: none;
 			}
 			.button {
 				color: black;
@@ -91,6 +100,9 @@
 				background: white;
 				width: 80%;
 				padding: 10px;
+				-webkit-transition: none;
+				-o-transition: none;
+				transition: none;
 			}
 			.home .search-form input {
 				/*padding-left: 5px;*/
