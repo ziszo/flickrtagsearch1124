@@ -1,4 +1,4 @@
-			<div ng-class="{home: pageCtrl.noTag}" class="tag-search-container transition">
+			<div ng-class="{home: pageCtrl.noTag}" class="tag-search-container">
 				<div class="search-container column-center-center transition">
 					<img ng-hide="!pageCtrl.noTag" class="logo-large transition" src="images/flickr-logo.jpeg" height="50px" alt="Flickr" ng-click="pageCtrl.toggle_noTag()">
 					<div class="search-form row-center-center transition">
@@ -17,7 +17,7 @@
 						Try to see photos with <a href="#/inspection">inspection</a> tag.
 					</div>
 				</div>
-				<div ng-hide="!pageCtrl.error" class="toast-message transition-04">
+				<div ng-hide="!pageCtrl.error" class="toast-message">
 					<div class="toast-left row-center-center">
 						<i class="material-icons md-36">sentiment_very_dissatisfied</i>
 					</div>
